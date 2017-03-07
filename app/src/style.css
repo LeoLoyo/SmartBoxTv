@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+	font-family: 'Roboto', sans-serif;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+.grid{
+	width: 950px;
+	margin: 0 auto;
+	position:relative;
+	height: 100vh;
+}
+.Header{
+	padding: 2em 5em;
+	/*height: 90vh;*/
+	text-align: center;
+	font-style: 8px;
+	font-size: 10px;
+
+}
+
+.Header strong{
+	color: rgba(97,113,230,1);;
+	font-size:1.5em;
+}
+.Header span{
+	color: lightblue;
+	font-size: 1em;
+}
+
+.LightBox{
+	padding: 0.1em;
+	height: 32.5vh;
+	background-color:rgba(97,113,230,1);
+	color:#fff;
+}
+.LightBox .Apps{
+	text-align: center;
+}
+
+.imgModal{
+	width: 35%;
+	margin:1em auto;
+	border:2px solid #fff;
+}
+.modal-content{
+	text-align: center;
+	box-shadow: none;
+	border:none;
+	background-color: transparent;
+}
+.formLogin{
+    width: 30%;
+    margin: 0 auto
+}
+
+.Parallax{
+	background-image: url('./img/parallax.jpg');
+	background-size: cover;
+	height:40.5vh;
+}
+.parallax-window {
+    min-height: 40.5vh;
+    width: 100%;
+    background: transparent;
+}
+.Footer{
+	color: #fff;
+	line-height: 5vh;
+	height: 5vh;
+	background-color:rgba(97,113,230,1);
+	text-align: center;
+	padding: 5px;				
+}
